@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main_bg_color:rgb(1, 242, 255);
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(london.png)
+
+}
+
+
+    
+.logo img{
+    margin: 19px;
+    width: 114px;
+    border-radius: 88px;
+    display: inline;
+}
+img{
+    
+    border: 09px solid rgba(255, 121, 117, 0.818);
+    border-style: outset;
+
+}
+
+.nav ul{
+    margin-bottom: 0px;
+    background-color: rgb(248, 191, 191);
+    height: 43px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+
+}
+
+
+.nav ul li button a{
+    border-radius: 0%;
+    text-decoration: none;
+    font-size: 18px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: rgb(1, 0, 0);
+}
+
+    
+ .nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-weight: 200; 
+    animation-name: bounce;
+}
+
+
+ .nav ul li {
+    list-style: none;
+    padding: 0 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+
+}
+.nav ul li button{
+    border-radius: 0%;
+    height: 23px;
+    background-color: rgb(189, 2, 2);
+    border-radius: 13px;
+
+}
+.nav ul li button a{
+    padding: 12px;
+    border-radius: 0%;
+    height: 44px;
+    font-weight: 600;
+    
+}
+
+
+
+
+
+.welcome h1{
+    color: crimson;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.welcome h2{
+    color: crimson;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+
+.welcome {
+    text-align: center;
+    font-weight: 800;
+
+}
+.welcome ul li{
+    text-align: center;
+    color: rgb(233, 112, 112);
+    font-weight: 500;
+    font-size: large;
+    text-shadow: ;
+
+}
+.welcome h2:hover{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(184, 22, 22), 0 0 1em rgb(191, 0, 0), ;
+    font-size: 45px;
+    color:rgb(3, 134, 116) ;
+    text-decoration: double;
+    font-weight: 300;
+    font-style: oblique  ;
+}
+
+
+
+
+
+
+
+.welcome h1:hover{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(184, 22, 22), 0 0 1em rgb(191, 0, 0), ;
+    font-size: 45px;
+    color:rgb(3, 134, 116) ;
+    text-decoration: double;
+    font-weight: 200;
+}
+
+.welcome button{
+    margin-top: 17px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: red;
+    border-style: double;
+    border-color: black;
+    border-radius: 23px;
+}
+
+ button a{
+    margin-top: 277px;
+    padding-top: 225px;
+    text-decoration: none;
+    border-radius: 27px;
+    font-size: 16px;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    font-variant: small-caps;
+    
+
+}
+
+button:hover{
+    background-color: grey;
+    text
+}
+
+.search{
+    display: flex;
+    justify-self: center;
+    align-items:center;
+    padding:4px
+}
+
+.search input{
+    height: 18px;
+    border-radius :2px;
+    width: 433px;
+    display: flex;
+    justify-self: center;
+    margin-left: 35%;
+    margin-top: 14px;
+}
+
+
+
+
+footer{
+    background-color: rgb(225, 124, 141)
+    ;
+}
+.about h1{
+    text-align: center;
+    padding-bottom: 18px;
+    margin-top: 56px;
+
+}
+.container{
+    min-height: calc(100vh);
+}
+.videos{
+    max-width: 91wh;
+    margin: auto;
+
+}
+.video_items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.video_items img{
+    border-radius: 23px;
+    margin: 12px;
+    padding: 0;
+    width: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_items h5{
+    text-align: center;
+
+}
+.video_items button{
+    border-width: 2px;
+    margin-left: 27px;
+    width: 180px;
+    border-color: rgb(181, 65, 65);
+    background-color: rgb(248, 129, 129);
+    align-items: center;
+    border-radius: 23px;
+
+}
+.video_items button:hover{
+    background-color: rgb(223, 201, 193);
+
+    
+
+}
+.video_items button a{
+    font-size: 12px;
+
+}
+.video_items button a:hover{
+    font-size: 12px;
+    font-style: italic;
+
+
+    
+}
+.videos ul li{
+    margin: 29px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+
+}
+
+.sm a img{
+    margin: auto;
+    padding: 0px;
+    width: 23px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot p{
+    margin: 18px ;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
